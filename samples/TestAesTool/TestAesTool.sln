@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAesTool", "TestAesTool\TestAesTool.csproj", "{C7087CA4-63A1-4C84-B104-9914E0670118}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7087CA4-63A1-4C84-B104-9914E0670118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7087CA4-63A1-4C84-B104-9914E0670118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7087CA4-63A1-4C84-B104-9914E0670118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7087CA4-63A1-4C84-B104-9914E0670118}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F800FE6-812D-4ADB-8308-6B506D38948A}
+	EndGlobalSection
+EndGlobal
