@@ -80,7 +80,6 @@
             this.textBoxPlanText.Name = "textBoxPlanText";
             this.textBoxPlanText.Size = new System.Drawing.Size(334, 20);
             this.textBoxPlanText.TabIndex = 5;
-            this.textBoxPlanText.Text = "LasCrucesAmaril|1691576156||";
             // 
             // label3
             // 
@@ -94,8 +93,9 @@
             // textBoxEncrypted
             // 
             this.textBoxEncrypted.Location = new System.Drawing.Point(87, 184);
+            this.textBoxEncrypted.Multiline = true;
             this.textBoxEncrypted.Name = "textBoxEncrypted";
-            this.textBoxEncrypted.Size = new System.Drawing.Size(334, 20);
+            this.textBoxEncrypted.Size = new System.Drawing.Size(334, 54);
             this.textBoxEncrypted.TabIndex = 7;
             // 
             // label4
