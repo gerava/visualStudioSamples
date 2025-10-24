@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCefSharp", "TestCefSharp\TestCefSharp.csproj", "{6C8637BB-901E-4C8C-844D-F17718EC4A59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C8637BB-901E-4C8C-844D-F17718EC4A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C8637BB-901E-4C8C-844D-F17718EC4A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C8637BB-901E-4C8C-844D-F17718EC4A59}.Debug|x64.ActiveCfg = Debug|x64
+		{6C8637BB-901E-4C8C-844D-F17718EC4A59}.Debug|x64.Build.0 = Debug|x64
+		{6C8637BB-901E-4C8C-844D-F17718EC4A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C8637BB-901E-4C8C-844D-F17718EC4A59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C8637BB-901E-4C8C-844D-F17718EC4A59}.Release|x64.ActiveCfg = Release|x64
+		{6C8637BB-901E-4C8C-844D-F17718EC4A59}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EEA78B2-9DB1-4771-964E-DD47071B0364}
+	EndGlobalSection
+EndGlobal

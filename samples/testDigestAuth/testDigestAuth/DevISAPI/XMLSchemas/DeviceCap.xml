@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DeviceCap version="2.0" xmlns="http://www.isapi.org/ver20/XMLSchema">
+	<isSupportReboot>true</isSupportReboot>
+	<isSupportFactoryReset>true</isSupportFactoryReset>
+	<isSupportUpdatefirmware>true</isSupportUpdatefirmware>
+	<isSupportDeviceInfo>true</isSupportDeviceInfo>
+	<SysCap>
+		<isSupportDst>true</isSupportDst>
+		<NetworkCap version="2.0" xmlns="http://www.isapi.org/ver20/XMLSchema">
+			<isSupportWireless>true</isSupportWireless>
+			<isSupportWired>true</isSupportWired>
+			<isSupportPPPoE>false</isSupportPPPoE>
+			<isSupportBond>false</isSupportBond>
+			<isSupport802_1x>false</isSupport802_1x>
+			<isSupportNtp>true</isSupportNtp>
+			<isSupportFtp>false</isSupportFtp>
+			<isSupportUpnp>false</isSupportUpnp>
+			<isSupportDdns>false</isSupportDdns>
+			<isSupportHttps>true</isSupportHttps>
+			<SnmpCap>
+				<isSupport>false</isSupport>
+			</SnmpCap>
+			<isSupportExtNetCfg>false</isSupportExtNetCfg>
+			<isSupportSSH>true</isSupportSSH>
+			<isSupportEZVIZ>true</isSupportEZVIZ>
+			<isSupportEhome>true</isSupportEhome>
+			<isSupportWirelessDial>false</isSupportWirelessDial>
+			<isSupportWirelessServer>false</isSupportWirelessServer>
+			<VerificationCodeModification>
+				<verificationCodeType opt="normal,empty">normal</verificationCodeType>
+				<verificationCodeModify opt="true,false">false</verificationCodeModify>
+			</VerificationCodeModification>
+			<isSupportEZVIZQRcode>true</isSupportEZVIZQRcode>
+			<isSupportEZVIZUnbind>true</isSupportEZVIZUnbind>
+		</NetworkCap>
+		<SerialCap>
+			<rs485PortNums>1</rs485PortNums>
+		</SerialCap>
+		<VideoCap  version="2.0" xmlns="http://www.isapi.org/ver20/XMLSchema">
+			<videoInputPortNums>1</videoInputPortNums>
+			<videoOutputPortNums>0</videoOutputPortNums>
+			<isSupportHeatmap>false</isSupportHeatmap>
+			<isSupportCounting>false</isSupportCounting>
+			<isSupportPreviewSwitch>false</isSupportPreviewSwitch>
+			<isSupportRecodStatus>false</isSupportRecodStatus>
+			<isSupportPrivacyMask>false</isSupportPrivacyMask>
+			<isSupportBinocularPreviewSwitch>false</isSupportBinocularPreviewSwitch>
+			<isSupportCalibCheck>false</isSupportCalibCheck>
+			<isSupportPIP>false</isSupportPIP>
+		</VideoCap>
+		<AudioCap version="2.0" xmlns="http://www.isapi.org/ver20/XMLSchema">
+			<audioInputNums>1</audioInputNums>
+			<audioOutputNums>1</audioOutputNums>
+			<mixAudioInSet>false</mixAudioInSet>
+			<mixAudioOutSet>false</mixAudioOutSet>
+			<isSupportAudioMixing>false</isSupportAudioMixing>
+			<isSupportAudioInConfig>true</isSupportAudioInConfig>
+			<isSupportAudioOutConfig>true</isSupportAudioOutConfig>
+		</AudioCap>
+		<isSupportSubscribeEvent>true</isSupportSubscribeEvent>
+		<isSupportTimeCap>true</isSupportTimeCap>
+		<isSupportPostUpdateFirmware>true</isSupportPostUpdateFirmware>
+	</SysCap>
+	<voicetalkNums>1</voicetalkNums>
+	<isSupportSnapshot>true</isSupportSnapshot>
+	<SecurityCap version="2.0" xmlns="http://www.isapi.org/ver20/XMLSchema">
+		<supportUserNums>1</supportUserNums>
+		<userBondIpNums>1</userBondIpNums>
+		<userBondMacNums>1</userBondMacNums>
+		<isSupCertificate>false</isSupCertificate>
+		<issupIllegalLoginLock>true</issupIllegalLoginLock>
+		<isSupportOnlineUser>false</isSupportOnlineUser>
+		<isSupportAnonymous>false</isSupportAnonymous>
+		<isSupportStreamEncryption>false</isSupportStreamEncryption>
+		<securityVersion opt="1,2"/>
+		<keyIterateNum>100</keyIterateNum>
+		<isSupportUserCheck>true</isSupportUserCheck>
+		<isSupportGUIDFileDataExport>false</isSupportGUIDFileDataExport>
+		<isSupportSecurityQuestionConfig>true</isSupportSecurityQuestionConfig>
+		<isSupportGetOnlineUserListSC>false</isSupportGetOnlineUserListSC>
+		<SecurityLimits>
+			<LoginPasswordLenLimit min="8" max="16"/>
+			<SecurityAnswerLenLimit min="1" max="128"/>
+		</SecurityLimits>
+		<RSAKeyLength opt="512,1024,2048"/>
+		<isSupportONVIFUserManagement>false</isSupportONVIFUserManagement>
+		<WebCertificateCap>
+			<CertificateType  opt="basic"/>
+		</WebCertificateCap>
+		<isSupportConfigFileImport>true</isSupportConfigFileImport>
+		<isSupportConfigFileExport>true</isSupportConfigFileExport>
+		<cfgFileSecretKeyLenLimit min="0" max="32"/>
+		<salt/>
+		<isSupportDeviceCertificatesManagement>true</isSupportDeviceCertificatesManagement>
+		<isSupportSecurityEmail>true</isSupportSecurityEmail>
+		<isSupportEncryptCertificate>true</isSupportEncryptCertificate>
+		<isSupportCertificateCustomID>true</isSupportCertificateCustomID>
+	</SecurityCap>
+	<EventCap/>
+	<RacmCap>
+		<SecurityLog>
+			<isSupportLogServer>true</isSupportLogServer>
+		</SecurityLog>
+	</RacmCap>
+	<isSupportEhome>true</isSupportEhome>
+	<VideoIntercomCap/>
+	<isSupportAcsUpdate>true</isSupportAcsUpdate>
+	<isSupportEncryption>true</isSupportEncryption>
+	<supportImageChannel>true</supportImageChannel>
+	<isSupportImageCap>true</isSupportImageCap>
+	<isSupportPictureServer>true</isSupportPictureServer>
+	<isSupportAlgorithmsInfo>true</isSupportAlgorithmsInfo>
+	<isSupportAccessControlCap>true</isSupportAccessControlCap>
+	<isSupportClientProxyWEB>true</isSupportClientProxyWEB>
+	<WEBLocation>local</WEBLocation>
+	<isSupportUserManualQRCode>true</isSupportUserManualQRCode>
+	<isSupportEZVIZParameterTest>true</isSupportEZVIZParameterTest>
+	<isSupportLocalUserChange>true</isSupportLocalUserChange>
+</DeviceCap>
